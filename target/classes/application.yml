@@ -14,7 +14,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/acaiyh/springCloudLearn.git
+          uri: https://github.com/acaiyh/springCloudConfigCenter.git
           search-paths:
           - ConfigCenter
       label: master
