@@ -1,0 +1,13 @@
+server:
+  port: 8001
+### hystrix 配置
+feign:
+  hystrix:
+    enabled: true
+### hystrix 禁止服务超市时间
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          enabled:true

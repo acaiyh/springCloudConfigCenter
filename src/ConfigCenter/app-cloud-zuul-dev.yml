@@ -1,0 +1,11 @@
+server:
+  port: 8000
+###配置网关反向代理
+zuul:
+  routes:
+    api-member:
+      path: /member/**
+      serviceId: app-cloud-member
+    api-order:
+      path: /order/**
+      serviceId: app-cloud-order
